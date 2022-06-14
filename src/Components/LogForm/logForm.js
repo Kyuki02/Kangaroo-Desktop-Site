@@ -7,7 +7,7 @@ export const LogForm = () => {
     <>
       <section className="div__log">
         <div className="div__log__title">
-          <img href="https://upload.wikimedia.org/wikipedia/it/0/09/Twitter_bird_logo.png?20160903181542"></img>
+          <img alt="logo" href="https://upload.wikimedia.org/wikipedia/it/0/09/Twitter_bird_logo.png?20160903181542"></img>
           <h1>Clear Kangaroo</h1>
         </div>
         <div className="div__log__form">
@@ -25,7 +25,7 @@ export const LogForm = () => {
               <label htmlFor="Forgot">Forgot Password?</label>
             </div>
             <div className="form__input">
-              <Button disabled={true} />
+              <Button disabled={false} />
             </div>
           </form>
 
